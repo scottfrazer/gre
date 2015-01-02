@@ -5,7 +5,7 @@ abrogate - to repeal; to revoke
 abstemonious - eating and drinking in moderation
 accolade - an expression of praise
 acerbic - having a sour or bitter taste or character
-acument - quick, keen, or accurate knowledge or insight
+acumen - quick, keen, or accurate knowledge or insight
 admonish - to reprove; to express warning or disapproval
 adroit - adept; dexterous
 adulation - excessive praise; intense adoration
@@ -585,3 +585,6 @@ torpid - lethargic; sluggish; dormant
 ubiquitous - existing everywhere at the same time; constantly encountered; widespread
 vilify - to defane; to characterize harshly
 fulminate - to loudly attack or denounce
+bombastic - pompous; grandiloquent
+queries - questions; inqueries; doubts in the mind; reservations
+tenacity - the quality of adherence or persistence to something valued; persistent determination
