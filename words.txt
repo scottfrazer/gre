@@ -69,7 +69,7 @@ canon - an established set of principlees or code of laws, often religious in na
 capricious - inclined to change one's mind impulsively or unpredictably
 captious - calculated to confuse or entrap in argument
 castigate - to severely criticize or punish
-catalyst - a substance taht accelerates the rate of a chemical reaction without changing; a person who causes change
+catalyst - a substance that accelerates the rate of a chemical reaction without changing; a person who causes change
 caustic - burning or stinging, causing corrosion
 celerity - speed
 censure - to criticize severly; to officially rebuke
@@ -289,8 +289,7 @@ loquacious - extremely talkative
 lubricious - lewd; wanton; slippery
 luminous - characterized by brightness and the emission of light
 maculate - marked with spots or blotches; impure
-magnanimous - to be generous or forgiving, esp. toward a rival or someone less powerful than oneself.
-magnanimity - generous or forgiving, esp. toward a rival or someone less powerful than oneself.
+magnanimous - to be generous or forgiving, esp. toward a rival or someone less powerful than oneself
 malevolent - having or showing often vicious ill will, spite, or hatred
 malinger - to feign illness to avoid work
 malleable - capable of being shaped or formed; tractable
@@ -324,7 +323,7 @@ nonplussed - baffled; at a loss for what to say or do
 nostrum - panacea; questionable remedy
 noxious - harmful; injurous
 nugatory - trifling; inconsequential
-obdurate - unyielding; hardhearted; stubbornly refusing to change one's opinion or course of action.
+obdurate - unyielding; hardhearted; stubbornly refusing to change one's opinion or course of action
 obfuscate - to deliberately obscure; to make confusing
 obloquy - sharp criticism; abusively detractive language
 obsequious - obedient or attentive to an excessive or servile degree
@@ -352,7 +351,7 @@ paucity - scarcity
 opprobrium - disgrace, contempt
 peccadillo - a slight offense; literally, a minor sin
 pecuniary - having to do with money
-pedagogy - the art or profession of training, teaching. or instructing
+pedagogy - the art or profession of training, teaching, or instructing
 pedantic - the parading of learning; excessive attention to minutiae of formal rules
 pellucid - transparent; easy to understand
 penchant - strong inclination; a liking
@@ -508,7 +507,7 @@ comportment - behavior; bearing
 revel - enjoying oneself in a loud and noisy way, especially with drinking and dancing
 retaliate - to make an attack or assault in respone to a similar attack
 delineate - describe or portray something accurately
-discomposure - the state of feeling disturbed or agitated.
+discomposure - the state of feeling disturbed or agitated
 ineluctable - unable to be resisted or avoided
 invedious - likely to arounse or cause resentment or anger in others
 plangent - loud, reverbrerating, and often melancholy
@@ -547,7 +546,7 @@ disabuse - persuade (someone) that an idea or belief is mistaken
 extemporaneous - spoken or done without preparation
 lucid - expressed clearly; easy to understand
 paean - a song or hymn of praise and thanksgiving
-perfidy - deceitfulness; untrustworthiness.
+perfidy - deceitfulness; untrustworthiness
 perspicacious - having a ready insight into and understanding of things
 precipitate - acting with excessive haste or impulse.  To cause to happen before anticipated or required
 predilection - a preference or special liking for something; a bias in favor of something
@@ -588,3 +587,76 @@ fulminate - to loudly attack or denounce
 bombastic - pompous; grandiloquent
 queries - questions; inqueries; doubts in the mind; reservations
 tenacity - the quality of adherence or persistence to something valued; persistent determination
+magnanimity - generous or forgiving, esp. toward a rival or someone less powerful than oneself
+alloy - to commingle; to debate by mixing with something inferior;  unalloyed means pure
+appropriate - to take for one's own use; to confiscate
+arrest - to suspend; to engage; holding one's attention: as in arrested adolescence, an arresting portrait
+august - majestic, venerable
+bent - leaning, inclination, proclivity, tendency
+broach - to bring up; to announce; to being to talk about
+brook - to tolerate; to endure; to countenance
+cardinal - major, as in cardinal sin
+color - to change as if by dyeing;  to distort, gloss, or affect
+consequential - pompous, self-important (primary definition: logically following; important)
+damp - to diminish the intensity or check the vibration of a sound
+die - a tool used for shaping, as in a tool-and-die shop
+essay - to test or try; to attempt; to experiment
+exact - to demand; to call for; to require; to take
+fell - (v) to cause to fall by striking. (adj) inhumanly cruel
+flag - to sag or droop; to become spiritless; to decline
+flip - sarcastic, impertinent, as in flippant: a flip remark
+ford - to wade across the shallow part of a river or stream
+grouse - to complain or grumble
+guy - a rope, cord, or cable attached to something as a brace or guide; to steady or reinforce using a guy.  (think guide, verb: guyed, guying)
+intimate - to imply, suggest, or insinuate
+list - to tilt or lean to one side
+lumber - to move heavily or clumsily
+meet - fitting, proper
+milk - to exploit; to squeeze every last ounce of
+mince - to pronounce or speak affectedly; to euuphemize, to speak too carefully.  Also, to take tiny steps; to tiptoe
+nice - exacting, fastidious, extremely precise
+obtain - to be established, accepted, or customary
+occult - hidden, concealed, beyond comprehension
+pedestrian - commonplace, trite, unremarkable, quotidian
+pied - multicolored, usually in blotches
+plastic - moldable, pliable, not rigid
+pluck - courage, spunk, fortitude
+prize - to pry, to press or force with a lever; something taken by force, spoils
+rail - to complain about bittery
+rent - torn (past tense of rend); an opening or tear caused by such
+quail - to lose courage; to turn frightened
+qualify - to limit
+sap - (v) to enervate or weaken the vitality of. (n) a fool or nitwit
+scurvy - contemptible, despicable
+singular - exceptional, unusual, odd
+stand - a group of trees
+steep - to saturate or completely soak, as in let a tea bag steep
+strut - the supporting structural cross-part of a wing
+table - to remove (as a parliamentary motion) from consideration
+tender - to proffer or offer
+waffle - to equivocate; to change one's position
+wag - wit, joker
+proffer - hold out (something) to someone for acceptance; offer
+adumbrate - to foreshadow vaguely or intimate; to suggest or outline sketchily; to obscure or overshadow
+anodyne - soothing; something that assuages or allays pain or comforts
+allay - diminish or put at rest (fear, suspicion, or worry)
+asperity - severity, rigor; roughness, harshness; acrimony, irritability
+asseverate - to aver, allege, or assert
+cavil - to find fault without good reason
+contumacious - insubordinate, rebellious; cuntumely means insult, scorn, aspersion
+execrate - to denounce, to feel loathing for, to curse, to declare to be evil
+expiate - to atone or make amends for
+inimitable - one of a kind, peerless
+inveterate - deep rooted, ingrained, habitual
+peroration - the concluding part of a speech; flowery, rhetorical speech
+prolix - long-winded, verbose; prolixity means verbosity
+propitiate - to appease; to conciliate; propitious means auspicious, favorable
+puerile - childish, immature, jejune, nugatory
+puissance - power, strength; puissant means powerful, strong
+remonstrate - to protest, to object
+sagacious - having sound judgment; perceptive, wise; like a sage
+salacious - lustful, lascivious, bawdy
+sententious - aphoristic or moralistic; epigrammatic; tending to moralize excessively
+tendentious - biased; showing marked tendencies
+vitiate - to corrupt, to debase, to spoil, to make ineffective
+voluble - fluend, verbal, having easy use of spoken language
