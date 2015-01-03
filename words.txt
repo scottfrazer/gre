@@ -146,7 +146,7 @@ eccentric - departing from norms or conventions
 eclectic - culled from many sources
 edifying - enlightening
 effluvium - an unpleasant or harmful odor, secretion, or discharge
-effrontery - boldness; impudence; arrogence
+effrontery - boldness; arrogence; insolent or impertinent behavior
 effulsive - gushing; excessively demonstrative
 egress - a path to go out; the right to go out
 elegy - a mournful poem, especially one lamenting the dead
@@ -289,8 +289,8 @@ loquacious - extremely talkative
 lubricious - lewd; wanton; slippery
 luminous - characterized by brightness and the emission of light
 maculate - marked with spots or blotches; impure
-magnanimous - generous and noble in mind and heart, especially in forgiving
-magnanimity - the quality of being generously noble in mind and hard, esp. forgiving
+magnanimous - to be generous or forgiving, esp. toward a rival or someone less powerful than oneself.
+magnanimity - generous or forgiving, esp. toward a rival or someone less powerful than oneself.
 malevolent - having or showing often vicious ill will, spite, or hatred
 malinger - to feign illness to avoid work
 malleable - capable of being shaped or formed; tractable

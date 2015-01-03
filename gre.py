@@ -5,6 +5,7 @@ import termios
 import arrow
 import random
 import os
+import eggshell
 from xtermcolor import colorize
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -28,6 +29,7 @@ Quiz mode options:
 
 (M)ain menu
 (Q)uit
+(S)peak word
 (H)elp (or ?)
 """
 
@@ -97,8 +99,8 @@ def quiz(dictionary, number, ranked=False):
         word = random.choice(quiz_words_iteration)
         quiz_words_iteration.remove(word)
         while True:
-            question = "{} [enter/q/m/h] ".format(colorize(word, ansi=1))
-            ch = prompt(question, ['q', 'm', 'h', 13])
+            question = "{} [enter/q/m/h/s] ".format(colorize(word, ansi=1))
+            ch = prompt(question, ['q', 'm', 'h', 's', 13])
             if ch == 'q':
                 sys.exit(0)
             elif ch == 'h':
@@ -106,6 +108,9 @@ def quiz(dictionary, number, ranked=False):
                 continue
             elif ch == 'm':
                 return
+            elif ch == 's':
+                (rc, out, err) = eggshell.run('say {}'.format(word))
+                continue
             elif ord(ch) == 13:
                 print(colorize(dictionary[word], ansi=2))
             break
