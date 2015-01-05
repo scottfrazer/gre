@@ -64,18 +64,39 @@ def prompt(question, choices, incorrect=None):
         if incorrect is not None:
             print(incorrect)
 
+def parse_entry(entry):
+    date = arrow.get(entry[:19], 'YYYY-MM-DD HH:mm:ss')
+    parts = entry[20:].split(',')
+    word = parts[0].replace('word=', '')
+    correct = True if parts[1].replace('correct=', '') == 'y' else False
+    return (date, word, correct)
+
 def results():
     with open('results.txt') as fp:
-        entries = filter(lambda x: len(x), fp.read().split('\n'))
-    tally = {}
-    for entry in entries:
-        date = arrow.get(entry[:19], 'YYYY-MM-DD HH:mm:ss')
-        print(date, entry[21:])
+        entries = list(map(parse_entry, filter(lambda x: len(x), fp.read().split('\n'))))
+    count = {
+      'correct': 0,
+      'incorrect': 0,
+      'total': len(entries)
+    }
+    cards_by_date = {}
+    for (date, word, correct) in entries:
+        if correct: count['correct'] += 1
+        if not correct: count['incorrect'] += 1
+        if date.format('YYYY-MM-DD') not in cards_by_date:
+            cards_by_date[date.format('YYYY-MM-DD')] = 1
+        else:
+            cards_by_date[date.format('YYYY-MM-DD')] += 1
+    print('Total flash cards: {}'.format(count['total']))
+    print('Correct: {}'.format(count['correct']))
+    print('Incorrect: {}'.format(count['incorrect']))
+    print('Flash cards today: {}'.format(cards_by_date[arrow.now('US/Eastern').format('YYYY-MM-DD')]))
 
 def get_quiz_words(dictionary, number):
     if number != -1:
         all_words = list(dictionary.keys())
         words = []
+        random.seed()
         for i in range(number):
             word = random.choice(all_words)
             all_words.remove(word)
@@ -99,7 +120,8 @@ def quiz(dictionary, number, ranked=False):
         word = random.choice(quiz_words_iteration)
         quiz_words_iteration.remove(word)
         while True:
-            question = "{} [enter/q/m/h/s] ".format(colorize(word, ansi=1))
+            number = len(quiz_words) - len(quiz_words_iteration)
+            question = "{}. {} [enter/q/m/h/s] ".format(number, colorize(word, ansi=1))
             ch = prompt(question, ['q', 'm', 'h', 's', 13])
             if ch == 'q':
                 sys.exit(0)
@@ -168,6 +190,7 @@ def menu():
             quiz(subset_words, number, ranked=False)
         elif ch == 'r':
             results()
+            prompt('[enter]', [13])
         elif ch == 'l':
             words = get_words()
             print(colorize('Dictionary reloaded.', ansi=4))

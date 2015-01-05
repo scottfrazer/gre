@@ -4,7 +4,7 @@ abjure - to renounce or reject solemnly
 abrogate - to repeal; to revoke
 abstemonious - eating and drinking in moderation
 accolade - an expression of praise
-acerbic - having a sour or bitter taste or character
+acerbic - having a sour or bitter taste. sharp and forthright
 acumen - quick, keen, or accurate knowledge or insight
 admonish - to reprove; to express warning or disapproval
 adroit - adept; dexterous
@@ -495,7 +495,7 @@ volatile - readily changing to a vapor; changeable; fickle
 voracious - having an insatiable appetite for an activity or pursuit
 waft - to cause to move as if by a light breeze
 waver - to move to and fro; to sway; to be unsettled in opinion
-wend - to go; to proceed
+wend - to go; to proceed, typically slowly or by an indirect route
 zealous - fervent; ardent; impassioned
 stolid - calm, dependable, showing little emotion or animation
 discreet - intentionally unobtrusive
@@ -582,7 +582,7 @@ stoic - indifferent to or unaffected by pleasure or pain; steadfast
 supplant - to take the place of; to supersede
 torpid - lethargic; sluggish; dormant
 ubiquitous - existing everywhere at the same time; constantly encountered; widespread
-vilify - to defane; to characterize harshly
+vilify - to defame; to characterize harshly
 fulminate - to loudly attack or denounce
 bombastic - pompous; grandiloquent
 queries - questions; inqueries; doubts in the mind; reservations
@@ -659,4 +659,10 @@ salacious - lustful, lascivious, bawdy
 sententious - aphoristic or moralistic; epigrammatic; tending to moralize excessively
 tendentious - biased; showing marked tendencies
 vitiate - to corrupt, to debase, to spoil, to make ineffective
-voluble - fluend, verbal, having easy use of spoken language
+voluble - fluent, verbal, having easy use of spoken language
+lament - a passionate expression of grief and sorrow
+reprove - reprimand or censure (someone)
+skulduggery - underhanded or unscrupulous behavior; trickery
+wanton - deliberate and unprovoked; sexually immodest or promiscuous
+fastidious - very attentive and concerned about accuracy and detail
+abeyance - a state of temporary disuse or suspension
