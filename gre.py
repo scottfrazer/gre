@@ -47,7 +47,7 @@ def words_api_definitions(word):
     definitions = j['results']
     print('\n{}'.format(colorize('WordsAPI Definitions:', ansi=9)))
     for i, definition in enumerate(definitions):
-        print('  {}.  ({}) {}'.format(i+1, colorize(definition['partOfSpeech'], ansi=6), definition['definition']))
+        print('  {}.  ({}) {}'.format(i+1, colorize(definition['partOfSpeech'] if 'partOfSpeech' in definition else 'N/A', ansi=6), definition['definition']))
     print('')
 
 def getch():
