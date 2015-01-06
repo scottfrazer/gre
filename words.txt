@@ -666,3 +666,5 @@ skulduggery - underhanded or unscrupulous behavior; trickery
 wanton - deliberate and unprovoked; sexually immodest or promiscuous
 fastidious - very attentive and concerned about accuracy and detail
 abeyance - a state of temporary disuse or suspension
+extant - still in existence, especially related to a document
+vestigial - forming a very small remnant of something that was once much larger or more noticeable.

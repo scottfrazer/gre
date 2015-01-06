@@ -6,6 +6,7 @@ import arrow
 import random
 import os
 import eggshell
+import requests
 from xtermcolor import colorize
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -20,6 +21,7 @@ main_menu = """Select mode:
 
 (R)esults
 re(L)oad dictionary
+Toggle (W)ordsAPI
 (Q)uit
 
 > """
@@ -32,6 +34,21 @@ Quiz mode options:
 (S)peak word
 (H)elp (or ?)
 """
+
+words_api_enabled = False
+words_api_token = ''
+
+def words_api_definitions(word):
+    r = requests.get('https://www.wordsapi.com/words/{word}?accessToken={token}'.format(
+        word=word,
+        token=words_api_token
+    ))
+    j = json.loads(r.text)
+    definitions = j['results']
+    print('\n{}'.format(colorize('WordsAPI Definitions:', ansi=9)))
+    for i, definition in enumerate(definitions):
+        print('  {}.  ({}) {}'.format(i+1, colorize(definition['partOfSpeech'], ansi=6), definition['definition']))
+    print('')
 
 def getch():
     fd = sys.stdin.fileno()
@@ -135,6 +152,8 @@ def quiz(dictionary, number, ranked=False):
                 continue
             elif ord(ch) == 13:
                 print(colorize(dictionary[word], ansi=2))
+                if words_api_enabled:
+                    words_api_definitions(word)
             break
         if ranked:
             correct = prompt("Correct? [y/n/s] ", ['y', 'n', 's'])
@@ -194,6 +213,12 @@ def menu():
         elif ch == 'l':
             words = get_words()
             print(colorize('Dictionary reloaded.', ansi=4))
+        elif ch == 'w':
+            global words_api_enabled, words_api_token
+            words_api_enabled = not words_api_enabled
+            print(colorize('WordsAPI {}'.format('Enabled' if words_api_enabled else 'Disabled'), ansi=4))
+            if not words_api_token and words_api_enabled:
+                words_api_token = input("WordsAPI token: ")
         elif ch == 'q':
             sys.exit(0)
 

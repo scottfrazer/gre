@@ -3452,3 +3452,5 @@
 2015-01-04 20:21:09 word=apotheosis,correct=n
 2015-01-04 20:21:12 word=remonstrate,correct=n
 2015-01-04 20:46:29 word=puissance,correct=n
+2015-01-06 10:36:37 word=mitigate,correct=y
+2015-01-06 10:36:45 word=connoisseur,correct=n
