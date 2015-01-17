@@ -7,6 +7,7 @@ import random
 import os
 import eggshell
 import requests
+import operator
 from xtermcolor import colorize
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -18,6 +19,7 @@ main_menu = """Select mode:
 (4) Only one starting letter, unranked
 (5) From word list, ranked
 (6) From word list, unranked
+(7) All words, ranked, only choose worst 25%
 
 (R)esults
 re(L)oad dictionary
@@ -36,7 +38,7 @@ Quiz mode options:
 """
 
 words_api_enabled = False
-words_api_token = ''
+words_api_token = os.getenv('WORDS_API_TOKEN')
 
 def words_api_definitions(word):
     r = requests.get('https://www.wordsapi.com/words/{word}?accessToken={token}'.format(
@@ -88,6 +90,20 @@ def parse_entry(entry):
     correct = True if parts[1].replace('correct=', '') == 'y' else False
     return (date, word, correct)
 
+def get_word_accuracy(words):
+    accuracy = {}
+    for word in words:
+        accuracy[word] = []
+    with open('results.txt') as fp:
+        for line in fp.read().split('\n'):
+            if len(line) == 0: continue
+            (date, word, correct) = parse_entry(line)
+            if word in accuracy:
+                accuracy[word].append(correct)
+    for word, lst in accuracy.items():
+        accuracy[word] = round(sum(lst)/len(lst) * 100) if len(lst) else 0
+    return accuracy
+
 def results():
     with open('results.txt') as fp:
         entries = list(map(parse_entry, filter(lambda x: len(x), fp.read().split('\n'))))
@@ -124,12 +140,13 @@ def get_quiz_words(dictionary, number):
 
 def quiz(dictionary, number, ranked=False):
     quiz_words = get_quiz_words(dictionary, number)
+    quiz_words_accuracy = get_word_accuracy(quiz_words)
     quiz_words_iteration = []
     if len(quiz_words) == 0:
       sys.exit('No words to quiz')
     print(quiz_menu)
     print(colorize('Set contains {} words:'.format(len(quiz_words)), ansi=4))
-    print(', '.join(quiz_words))
+    print(', '.join(['{} ({}%)'.format(word, quiz_words_accuracy[word]) for word in quiz_words]))
     while True:
         if len(quiz_words_iteration) == 0:
             quiz_words_iteration = list(quiz_words) # Copy
@@ -187,7 +204,15 @@ def menu():
                     print(colorize("{} is not in the dictionary".format(word), ansi=1))
             subset_words = {word: definition for word, definition in words.items() if word in list_words}
 
-        if ch in list('123456'):
+        if ch == '7':
+            accuracy = get_word_accuracy(words)
+            accuracy = sorted(accuracy.items(), key=operator.itemgetter(1))
+            accuracy = accuracy[:round(len(accuracy)/4)]
+            subset_words = {}
+            for word, percent in accuracy:
+                subset_words[word] = words[word]
+
+        if ch in list('1234567'):
             number = input("How many words to quiz? [all] ").strip()
             try:
                 number = int(number) if len(number) else -1
@@ -207,6 +232,8 @@ def menu():
             quiz(subset_words, number, ranked=True)
         elif ch == '6':
             quiz(subset_words, number, ranked=False)
+        elif ch == '7':
+            quiz(subset_words, number, ranked=True)
         elif ch == 'r':
             results()
             prompt('[enter]', [13])
