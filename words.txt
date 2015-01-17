@@ -258,7 +258,7 @@ inert - unmoving; lethargic; sluggish
 infelicitous - unfortunate; inappropriate
 ingenuous - artless; frank and candid; lacking in sophistication; naive
 inherent - ingrained within one's nature
-inimical - damaging, harmful, or injurious; hostile, averse, or unfriendly
+inimical - tending to obstruct or harm; unfriendly, hostile
 iniquity - gross injustice; wickedness
 innocuous - harmless; causing no damage
 inscrutable - incapable of being discovered or understood
@@ -365,7 +365,7 @@ peruse - to examine with great care
 pervade - to permeate
 pervasive - having the tendency to permeate or spread throughout
 petulant - ill-tempered; irritable
-phlegmatic - calm, sluggish; unemotional
+phlegmatic - (of a person) having an unemotional and stolidly calm disposition.
 pine - to yearn intensely; to languish; to lose vigor
 pirate - to illegally use or reproduce
 pith - the essential or central part
@@ -509,7 +509,7 @@ retaliate - to make an attack or assault in respone to a similar attack
 delineate - describe or portray something accurately
 discomposure - the state of feeling disturbed or agitated
 ineluctable - unable to be resisted or avoided
-invedious - likely to arounse or cause resentment or anger in others
+invedious - likely to arouse or cause resentment or anger in others
 plangent - loud, reverbrerating, and often melancholy
 antediluvian - of or belonging to a time before the biblical flood; extremely old fashioned
 prerogative - a right or privilege exclusive to a particular individual or class
@@ -588,7 +588,7 @@ bombastic - pompous; grandiloquent
 queries - questions; inqueries; doubts in the mind; reservations
 tenacity - the quality of adherence or persistence to something valued; persistent determination
 magnanimity - generous or forgiving, esp. toward a rival or someone less powerful than oneself
-alloy - to commingle; to debate by mixing with something inferior;  unalloyed means pure
+alloy - to commingle; to debase by mixing with something inferior;  unalloyed means pure
 appropriate - to take for one's own use; to confiscate
 arrest - to suspend; to engage; holding one's attention: as in arrested adolescence, an arresting portrait
 august - majestic, venerable
@@ -613,7 +613,7 @@ list - to tilt or lean to one side
 lumber - to move heavily or clumsily
 meet - fitting, proper
 milk - to exploit; to squeeze every last ounce of
-mince - to pronounce or speak affectedly; to euuphemize, to speak too carefully.  Also, to take tiny steps; to tiptoe
+mince - speak candidly and directly, esp. when criticizing someone or something.  Also, to take tiny steps; to tiptoe
 nice - exacting, fastidious, extremely precise
 obtain - to be established, accepted, or customary
 occult - hidden, concealed, beyond comprehension
@@ -640,7 +640,7 @@ proffer - hold out (something) to someone for acceptance; offer
 adumbrate - to foreshadow vaguely or intimate; to suggest or outline sketchily; to obscure or overshadow
 anodyne - soothing; something that assuages or allays pain or comforts
 allay - diminish or put at rest (fear, suspicion, or worry)
-asperity - severity, rigor; roughness, harshness; acrimony, irritability
+asperity - harshness of tone or manner
 asseverate - to aver, allege, or assert
 cavil - to find fault without good reason
 contumacious - insubordinate, rebellious; cuntumely means insult, scorn, aspersion
@@ -650,7 +650,7 @@ inimitable - one of a kind, peerless
 inveterate - deep rooted, ingrained, habitual
 peroration - the concluding part of a speech; flowery, rhetorical speech
 prolix - long-winded, verbose; prolixity means verbosity
-propitiate - to appease; to conciliate; propitious means auspicious, favorable
+propitiate - win or regain the favor of (a god, spirit, or person) by doing something that pleases them
 puerile - childish, immature, jejune, nugatory
 puissance - power, strength; puissant means powerful, strong
 remonstrate - to protest, to object
@@ -669,3 +669,4 @@ abeyance - a state of temporary disuse or suspension
 extant - still in existence, especially related to a document
 vestigial - forming a very small remnant of something that was once much larger or more noticeable.
 conciliate - stop (someone) from being angry or discontented; placate; pacify
+beset - trouble or threaten persistently
