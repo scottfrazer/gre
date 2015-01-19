@@ -34,6 +34,7 @@ Quiz mode options:
 (M)ain menu
 (Q)uit
 (S)peak word
+Toggle (W)ordsAPI
 (H)elp (or ?)
 """
 
@@ -139,6 +140,7 @@ def get_quiz_words(dictionary, number):
         return list(dictionary.keys())
 
 def quiz(dictionary, number, ranked=False):
+    global words_api_enabled
     quiz_words = get_quiz_words(dictionary, number)
     quiz_words_accuracy = get_word_accuracy(quiz_words)
     quiz_words_iteration = []
@@ -155,8 +157,8 @@ def quiz(dictionary, number, ranked=False):
         quiz_words_iteration.remove(word)
         while True:
             number = len(quiz_words) - len(quiz_words_iteration)
-            question = "{}. {} [enter/q/m/h/s] ".format(number, colorize(word, ansi=1))
-            ch = prompt(question, ['q', 'm', 'h', 's', 13])
+            question = "{}. {} [enter/q/m/h/s/w] ".format(number, colorize(word, ansi=1))
+            ch = prompt(question, ['q', 'm', 'h', 's', 'w', 13])
             if ch == 'q':
                 sys.exit(0)
             elif ch == 'h':
@@ -166,6 +168,10 @@ def quiz(dictionary, number, ranked=False):
                 return
             elif ch == 's':
                 (rc, out, err) = eggshell.run('say {}'.format(word))
+                continue
+            elif ch == 'w':
+                words_api_enabled = not words_api_enabled
+                print("WordsAPI Enabled: {}".format(words_api_enabled))
                 continue
             elif ord(ch) == 13:
                 print(colorize(dictionary[word], ansi=2))
