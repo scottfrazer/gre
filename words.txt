@@ -65,7 +65,7 @@ cacophony - harsh, jarring, discordant sound; dissonance
 cajole - to inveigle; to coax through flattery
 calumny - slander
 calumniate - to slander
-canon - an established set of principlees or code of laws, often religious in nature
+canon - an established set of principles or code of laws, often religious in nature
 capricious - inclined to change one's mind impulsively or unpredictably
 captious - calculated to confuse or entrap in argument
 castigate - to severely criticize or punish
@@ -387,7 +387,7 @@ proclivity - a natural predisposition or inclination
 prodigal - recklessly wasteful; extravagant
 prodigious - abundant in size, force, or extent; extraordinary
 profligate - excessively wasteful; recklessly extravagent
-profuse - given or coming forthin great abundance
+profuse - given or coming forth in great abundance
 proliferate - to grow or increase swiftly and abundantly
 propensity - a natural inclination or tendency
 prosaic - dull; unimaginative
@@ -574,7 +574,7 @@ penurious - penny-pinching; excessively thrifty; ungenerous
 pious - extremely reverent or devout; showing strong religious devotion
 precursor - one that precedes and indicates or announces another
 prolific - producing large volumes or amounts; productive
-quiescence - stillness; motionlessness; quanlity of being at rest
+quiescence - stillness; motionlessness; quality of being at rest
 redoubtable - awe-inspiring; worthy of honor
 satire - a literary work that ridicules or criticizes a human vice through humor or derision
 squalid - sordid; wretched and dirty as from neglect
@@ -643,7 +643,7 @@ allay - diminish or put at rest (fear, suspicion, or worry)
 asperity - harshness of tone or manner
 asseverate - to aver, allege, or assert
 cavil - to find fault without good reason
-contumacious - insubordinate, rebellious; cuntumely means insult, scorn, aspersion
+contumacious - insubordinate, rebellious; contumely means insult, scorn, aspersion
 execrate - to denounce, to feel loathing for, to curse, to declare to be evil
 expiate - to atone or make amends for
 inimitable - one of a kind, peerless
@@ -670,3 +670,8 @@ extant - still in existence, especially related to a document
 vestigial - forming a very small remnant of something that was once much larger or more noticeable.
 conciliate - stop (someone) from being angry or discontented; placate; pacify
 beset - trouble or threaten persistently
+lassitude - a state of physical or mental weariness; lack of energy
+histrionic - overly theatrical or melodramatic in character or style; shallow, volatile emotions, and attention-seeking behavior.
+parlous - full of danger or uncertainty; precarious
+pilloried - attack or ridicule publicly; pillory is a wooden shackle
+expatiate - speak or write at length or in detail
